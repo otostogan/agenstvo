@@ -1,0 +1,75 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+
+@import "base/variables"
+@import "base/mixins"
+
+* 
+    font-family: 'Montserrat', sans-serif
+    margin: 0
+    padding: 0
+
+
+.container
+    max-width: 1240px
+    margin: 0 auto 
+.title-main
+        position: relative
+        text-align: center
+        color: #fff
+        font-weight: 600
+        &::before
+            content: ""
+            position: absolute
+            background: url("../icons/angle/rectangle.png")
+            top: -5px
+            width: 120px
+            height: 12px
+        span
+            color: $main-color
+
+.title_black
+        position: relative
+        text-align: center
+        color: #000
+        font-weight: 600
+        &::before
+            content: ""
+            position: absolute
+            background: url("../icons/angle/rectangelblack.png") no-repeat
+            top: -5px
+            width: 120px
+            height: 12px
+        &-mobile
+            display: none
+        &-desktop
+            display: block
+.tac
+    text-align: center  !important
+
+
+
+@import "blocks/header"
+@import "blocks/fontsize"
+@import "blocks/btn"
+@import "blocks/first_page/firstBlock"
+@import "blocks/first_page/wants"
+@import "blocks/first_page/wayus"
+@import "blocks/first_page/compare"
+@import "blocks/projectslider"
+@import "blocks/first_page/companytrust"
+@import "blocks/ourteam"
+@import "blocks/first_page/specialoffer"
+@import "blocks/_footer"
+@import "blocks/_modal"
+@import "blocks/_media"
+@import "blocks/_menu"
+@import "blocks/_preloader"
+
+
+
+
+
+
+

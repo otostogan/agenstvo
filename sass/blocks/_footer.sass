@@ -1,0 +1,93 @@
+.footer
+    padding-top: 80px
+    padding-bottom: 65px
+    background: rgb(0,0,0)
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(254,215,57,1) 24%)
+    &__logo
+        display: flex
+        padding-top: 25px
+        align-items: center
+        &-body
+            font-size: 15px
+            max-width: 155px
+            font-weight: 400
+            margin-left: 15px
+    &__list
+        display: grid
+        grid-template-columns: auto auto 
+        column-gap: 125px   
+    &__wrapp
+        display: flex
+        justify-content: space-between
+    &__column
+        &-one
+            max-width: 335px
+            p
+                padding-top: 30px
+                font-weight: 500
+                font-size: 18px
+        &-list
+            padding-top: 50px
+            position: relative
+            max-width: 170px
+            ul
+                list-style-type: none
+                padding-top: 40px
+                li
+                    padding-bottom: 10px
+                    font-size: 18px
+                    font-weight: 500
+                    a
+                        color: #000
+            &::after
+                content: ""
+                position: absolute
+                background: url("../icons/angle/angleblack.png")
+                width: 33px
+                height: 44px
+                top: 35px  
+                left: -17px
+                
+        &-title
+            font-weight: 600
+            font-size: 22px
+    &__number    
+        padding-top: 40px
+        display: flex
+        flex-direction: column
+        span
+            text-transform: uppercase
+            color: rgba(0, 0, 0, 0.6)
+            font-weight: 600
+            font-size: 14px
+        a
+            color: #000 
+            font-size: 18px
+            font-weight: 500
+    &__mail
+        display: flex
+        flex-direction: column
+        padding-top: 40px
+        span
+            text-transform: uppercase
+            color: rgba(0, 0, 0, 0.6)
+            font-weight: 600
+            font-size: 14px
+        a
+            color: #000 
+            font-size: 18px
+            font-weight: 500
+    &__media
+        width: 175px
+        display: flex
+        justify-content: space-between
+        padding-top: 50px
+        font-size: 25px
+        a
+            color: #000
+
+.max-width
+    max-width: 100%
+.max-width300
+    max-width: 350px    
+    

@@ -1,0 +1,106 @@
+.modal
+    display: none
+    position: fixed
+    top: 0
+    z-index: 1050
+    width: 100% 
+    height: 100%
+    background-color: rgba(110, 91, 14, 0.322)
+    overflow: auto 
+    &__dialog
+        max-width: 1300px
+        margin: 100px auto
+    &__content
+        position: relative
+        width: 100%
+        padding: 50px
+        background-color: #000
+        border-radius: 4px  
+        max-height: 900px   
+        overflow-y: auto
+    &__close
+        position: absolute
+        top: 8px
+        right: 14px 
+        font-size: 30px
+        color: #fff
+        font-weight: 700
+        border: none
+        background-color: transparent
+        cursor: pointer
+    &__wrapper
+        display: flex
+        justify-content: space-around
+        margin-top: 50px
+        &-input
+            height: 100%
+            display: grid
+            grid-template-columns: 410px    
+            grid-template-rows: repeat(5, 60px)
+            row-gap: 15px
+            padding: 65px 50px 75px 55px
+            max-width: 517px
+            border: 1px solid $main-color
+            border-radius: 9px
+        &-checkbox
+        &-title
+            color: #fff
+            font-size: 20px
+            font-weight: 500
+            max-width: 405px    
+            margin-bottom: 20px
+        &-box
+            input[type="checkbox"]
+                display: none
+            label
+                position: relative
+                padding-left: 20px
+                color: $main-color
+                font-size: 18px
+                font-weight: 400
+                margin-left: 10px
+                &::before
+                    content: ""
+                    position: absolute
+                    display: inline-block
+                    width: 20px
+                    height: 20px
+                    background-color: #000
+                    border: 1px solid $main-color
+                    border-radius: 3px
+                    top: 3px
+                    left: -10px
+            input[type="checkbox"]:checked + label::before
+                background-color: $main-color
+    &__input
+        height: 100%
+        width: 100%
+        background-color: $main-color
+        color: #000
+        border: none
+        border-radius: 10px
+        padding-left: 30px
+        padding-top: 20px
+        padding-bottom: 20px
+        font-size: 14px
+        font-weight: 500
+        text-transform: uppercase
+        outline: none
+textarea
+    resize: none
+    overflow: hidden
+.mt10
+    padding-top: 10px
+
+.hide
+    display: none
+.show
+    display: block
+.mdn
+    display: block
+.permis
+    color: #fff
+    font-size: 14px
+    font-weight: 400
+    margin-top: 10px
+    text-align: center

@@ -1,0 +1,553 @@
+@media (max-width: 1200px)
+    .modal
+        &__content
+            padding: 20px
+            width: 80%
+            margin: 0 auto
+        &__wrapper
+            &-input
+                padding: 35px 20px 35px 20px !important
+            &-title
+                text-align: center
+                font-size: 13px
+            &-box
+                label
+                    font-size: 13px 
+                    margin-left: 20px
+    .mdn
+        display: none
+    #form .title-main
+        width: 80%
+        text-align: start
+    .wayus__item::before
+        content: ""
+        width: 0
+        height: 0
+    .more::after
+        content: ""
+        width: 0
+        height: 0
+    .circle::after
+        content: ""
+        width: 0
+        height: 0
+    .circle_l::after
+        content: ""
+        width: 0
+        height: 0
+    .cosoi::after
+        content: "" 
+        width: 0 !important
+        height: 0 !important
+    .wayus
+        padding-top: 20px
+        height: 1070px !important
+        padding-bottom: 30px
+        &__item
+            &-text
+                margin-top: 10px
+            &-1
+                grid-column: 1/2
+                grid-row: 1/2
+                position: relative
+                &::after
+                    content: ""
+                    position: absolute
+                    background: url("../icons/wayus/mobile/line/right.png")
+                    width: 105px    
+                    height: 59px
+                    left: 320px
+            &-2
+                grid-column: 2/3
+                grid-row: 2/3
+                &::after
+                    content: ""
+                    position: absolute
+                    background: url("../icons/wayus/mobile/line/left.png")
+                    width: 105px    
+                    height: 59px
+                    left: -60px
+                    top: 80px
+            &-3
+                grid-column: 1/2
+                grid-row: 3/4
+                &::after
+                    content: ""
+                    position: absolute
+                    background: url("../icons/wayus/mobile/line/right.png")
+                    width: 105px    !important
+                    height: 59px !important
+                    left: 320px !important
+                    top: 60px !important
+            &-4
+                grid-column: 2/3
+                grid-row: 4/5
+                &::after
+                    content: ""
+                    position: absolute
+                    background: url("../icons/wayus/mobile/line/left.png")
+                    width: 105px    
+                    height: 59px
+                    left: -60px
+                    top: 80px
+            &-5
+                grid-column: 1/2
+                grid-row: 5/6
+                &::after
+                    content: ""
+                    position: absolute
+                    background: url("../icons/wayus/mobile/line/right.png")
+                    width: 105px     !important
+                    height: 59px !important
+                    left: 320px 
+                    top: 70px
+            &-6
+                grid-column: 2/3
+                grid-row: 6/7
+        &__wrapper
+            row-gap: 0px
+            column-gap: 110px
+            grid-template-columns: 1fr 1fr
+            grid-template-rows: repeat(6, 120px)
+    .mt70
+        margin-top: 0
+    .mobile_wayus-photo
+        display: block
+    .desc-photo
+        display: none
+    .wayus
+        &__item
+            &-1
+                &::after
+                    left: 500px
+            &-3
+                &::after
+                    left: 500px !important
+            &-5
+                &::after
+                    left: 500px !important
+    .compare
+        &__grid
+            grid-template-columns: repeat(4,minmax(100px, 180px))
+        &__titles
+            &-item
+                font-size: 14px
+                max-width: 150px
+        &__item
+            font-size: 13px
+    .ourteam
+        &__descr
+            display: none
+
+@media (max-width: 1050px)
+    .container
+        max-width: 850px
+    .logomobile
+        display: block
+    .logo_desk
+        display: none
+    .header
+        background-color: #000
+        &__logo
+            align-items: start
+            padding-top: 20px
+            &-body
+                color: #fff
+        &__nav  
+            display: none
+        &__hamberger
+            position: absolute
+            top: 20px   
+            right: 30px
+            height: 21px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: flex-end
+            cursor: pointer
+            span
+                display: block
+                width: 30px
+                height: 3px
+                background-color: #fff  
+            span.long
+                width: 36px
+    .btn-black
+        &:hover
+            background: transparent
+            color: #fff
+    .title-main
+        &::before
+            content: ""
+            background: url("../icons/angle/mobile_rectangel/rectangel_yelow.png")
+            position: absolute
+            top: -5px
+            width: 65px 
+            height: 4px
+    .title_black
+        &::before
+            content: ""
+            background: url("../icons/angle/mobile_rectangel/rectangel_black.png")
+            position: absolute
+            top: -5px
+            width: 65px 
+            height: 4px
+    .wayus
+        &__item
+            &-text
+                width: 150px
+                font-size: 14px
+            &-1
+                &::after
+                    left: 380px
+            &-3
+                &::after
+                    left: 380px !important
+            &-5
+                &::after
+                    left: 380px !important
+    .compare
+        &__grid
+            grid-template-columns: repeat(3,minmax(100px, 180px))
+        &__titles
+            &-item
+                font-size: 14px
+                max-width: 150px
+            &-1
+                display: none
+        &__item
+            font-size: 13px
+        &__notes
+            &-1
+                display: none
+        
+    .ourteam
+        &__descr
+            display: none
+    .footer__ul
+        max-width: 200px
+
+@media (max-width: 992px)
+    .container
+        max-width: 750px    
+    .knoledge__midle
+        img
+            display: none
+    .modal__wrapper-checkbox
+        display: none
+    .title-main
+        font-size: 25px !important
+    .knoledge__midle
+        margin-top: 0
+    .wayus
+        &__item
+            &-1
+                &::after
+                    left: 300px !important
+            &-3
+                &::after
+                    left: 300px !important
+            &-5
+                &::after
+                    left: 300px !important
+    .compare__titles-item
+        max-width: 134px !important
+    // .ourteam
+    //     &__wrapp
+    //         position: relative
+    //     &__web
+    //         position: unset
+    //         background: none !important
+    //         &::after
+    //             content: ""
+    //             position: absolute
+    //             background-color: $main-color
+    //             width: 250px
+    //             height: 300px
+    //             right: 0
+    .footer__list
+        column-gap: 50px
+
+@media (max-width: 768px)
+    .projectslider
+        .title-main
+            text-align: center
+    #form.title-main
+        font-size: 18px !important
+        text-align: start
+        width: 80%    
+    .knoledge
+        padding: 0 10px
+    .knoledge__top
+        display: none
+    .showmenu
+        left: 20% !important
+    .modal__wrapper-input
+        border: none
+    .wants__block
+        display: grid
+        justify-items: center
+        grid-template-columns: 1fr 1fr
+        row-gap: 30px
+    .wants__item    
+        &::before
+            content: ""
+            position: absolute
+            background: url("../icons/mobilelogo/mobile_angle/yelow_left.png") no-repeat
+            width: 36px
+            height: 38px
+            left: 25px
+        span
+            font-size: 36px
+        &-descr
+            font-size: 14px
+    .right_angel
+        &::after
+            content: ""
+            position: absolute
+            background: url("../icons/mobilelogo/mobile_angle/yelow_right.png") no-repeat
+            width: 36px
+            height: 38px
+            right: 25px
+        &::before
+            content: ""
+            background: none
+    .atiger
+        &::after
+            content: ""
+            position: absolute
+            background: url("../img/first/tiger_bg.png") no-repeat
+            width: 168px
+            height: 160px
+            left: 200px 
+            top: -50px
+    .wants__text
+        font-size: 15px
+    .wants__span
+        font-size: 20px
+        margin: 50px auto 0
+    .wayus
+        &__item
+            max-width: 124px    
+            font-size: 13px
+            &-1
+                &::after
+                    left: 270px !important
+            &-2
+                &::after
+                    left: -100px
+                    
+            &-3
+                &::after
+                    left: 270px !important
+            &-6
+                &::after
+                    left: -100px
+            &-5
+                &::after
+                    left: 270px !important
+    .compare
+        &__notes
+            &-2
+                display: none
+        &__grid
+            grid-template-columns: minmax(130px, 180px) minmax(130px, 180px)
+        &__titles
+            &-2
+                display: none
+    .wayus .title-main
+            text-align: center
+    .companytrust
+        &__top 
+            &-1
+                display: none !important
+            &-2
+                display: none !important
+            &-3
+            &-4
+            &-5
+            &-6
+        &__bottom
+            display: block
+            &-1
+                display: none !important
+    .specialoffer__offer-title
+        font-size: 25px
+    .specialoffer__offer-subtitle
+        padding-top: 35px
+        font-size: 30px
+    .specialoffer .container
+        max-width: 550px    
+    
+    .footer
+        padding-bottom: 0px
+        height: auto
+        &__descr
+            &-wrapp
+                display: flex
+                justify-content: space-around
+                span
+                    color: #000000
+        &__wrapp
+            flex-direction: column
+        &__list
+            background-color: #fed739
+        &__column-one
+            max-width: 100% !important
+            p
+                text-align: center
+        &__logo
+            justify-content: center
+        &__media
+            margin: 0 auto
+    .footer__column-list::after
+        background: none
+    .footer__column-list
+        justify-self: center
+
+            
+
+@media (max-width: 576px)
+    .companytrust
+        .fz30
+            font-size: 18px !important
+        .title-main
+            font-size: 18px !important
+    .container
+        max-width: 500px    
+    .showmenu
+        left: 0% !important
+    .knoledge
+        padding: 150px 10px 0
+    .knoledge__midle-title
+        font-size: 24px !important
+    .knoledge__midle-info
+        h1
+            font-size: 18px
+    .knoledge__midle-descr
+        font-size: 14px !important
+    .modal__content
+        width: 100%
+        padding: 10px
+    .modal__dialog
+        max-width: 320px
+    .modal__wrapper-input
+        padding: 0 !important
+        grid-template-columns: 300px
+        grid-template-rows: 60px 60px 60px 75px 60px 
+    .modal
+        margin-top: 0px
+    .title-main
+        font-size: 18px !important
+    form
+        .title-main
+            width: 80%    
+    textarea
+        height: 75px !important
+    .atiger
+        &::after
+            content: ""
+            position: absolute
+            background: url("../img/first/tiger_bg.png") no-repeat
+            width: 168px
+            height: 160px
+            left: 130px 
+            top: -50px
+    .wants__span
+        font-size: 18px
+    .wants__text
+        font-size: 14px
+    .wanst__item-descr
+        font-size: 14px
+        width: 140px
+    .wayus
+        &__wrapper
+            column-gap: 45px    
+            grid-template-columns: 120px 120px
+        &__item
+            &-text
+
+            &-1
+                &::after
+                    left: 130px !important
+                    top: 40px
+            &-2
+                &::after
+                    left: -110px
+                    top: 60px
+            &-3
+                &::after
+                    left: 130px !important
+                    top: 40px
+
+            &-4
+                &::after
+                    top: 60px
+                    left: -110px
+            &-5
+                &::after
+                    left: 130px !important
+                    top: 40px
+        .title-main
+            text-align: center
+    .compare
+        &__notes    
+            display: none
+        &__grid
+            display: none
+        &__titles
+            display: none
+        &__benef
+            width: 100%
+        .fz30
+            font-size: 18px
+            text-align: left
+    .projectslider
+        .title-main
+            text-align: center
+    .ourteam
+        &__item
+            width: 320px !important
+            &-photo
+                max-width: 320px
+                justify-self: center
+                img
+                    max-width: 320px
+        &__web
+            grid-template-columns: 1fr
+            min-height: 320px
+            &-text
+                display: none
+    .specialoffer__offer 
+        padding-top: 60px
+        text-align: center
+    .specialoffer__offer-subtitle
+        font-size: 25px
+    .specialoffer .btn-toinvisible
+        margin: 50px auto
+    .footer
+        &__mail
+            a
+                font-size: 14px
+        &__number
+            a
+                font-size: 14px
+        &__list
+            background-color: #fed739
+            column-gap: 25px
+        &__column-one
+            max-width: 100% !important
+            p
+                text-align: center
+                font-size: 15px
+        &__column
+            &-list
+                ul
+                    li
+                        font-size: 14px
+    
+
+
+
+
+    

@@ -1,0 +1,44 @@
+.wants
+    padding-top: 45px
+    padding-bottom: 95px
+    background-color: #000
+    &__block
+        display: flex
+        margin-top: 55px
+        justify-content: space-between
+    &__item 
+        width: 150px
+        position: relative
+        display: flex
+        flex-direction: column
+        color: #fff 
+        text-align: center
+        span
+            font-weight: 700
+            font-size: 64px
+        &::before
+            content: ""
+            position: absolute
+            background: url("../icons/angle/angle.png") no-repeat
+            width: 65px
+            height: 61px
+            left: 25px
+    &__text
+        margin: 0 auto
+        max-width: 850px
+        margin-top: 80px
+        text-align: center
+        font-weight: 500
+        font-size: 20px
+        color: #fff
+        span
+            color: $main-color
+    &__span
+        color: $main-color
+        font-weight: 800
+        font-size: 26px
+        margin: 80px auto 0
+        max-width: 600px    
+        text-align: center
+            
+
