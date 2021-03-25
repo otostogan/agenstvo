@@ -5,8 +5,270 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti animi, adipisci reiciendis dolor ea vel saepe autem sapiente sed porro incidunt sequi eos illo? Alias nobis nemo eligendi blanditiis tenetur.</div>
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__logo">
+                <div class="menu__logo-img">
+                    <img src="icons/mobilelogo/logomenu.png" alt="logo">
+                </div>
+                <div class="menu__logo-body">
+                    Маркетинговое агентство полного цикла 
+                </div>
+            </div>
+            <div class="menu__close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="menu__list">
+                <nav class="menu__nav">
+                    <ul class="menu__list">
+                        <li class="top-angle"><a href="index.html">Главная</a></li>
+                        <li><a href="#">Брендинг</a></li>
+                        <li><a href="creatsite.html">Создание сайтов</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Контекст</a></li>
+                        <li><a href="#">SMM</a></li>
+                        <li><a href="#">Таргет</a></li>
+                        <li><a href="#">Кураторство</a></li>
+                        <li><a href="#">Кейсы</a></li>
+                        <li class="bottom-angle"><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <div class="header__logo-img">
+                        <img class="logo_desk" src="icons/header_logo.png" alt="logo">
+                        <img class="logomobile" src="icons/mobilelogo/logomenugold.png" alt="logo">
+                    </div>
+                    <div class="header__logo-body">
+                        Маркетинговое агентство полного цикла 
+                    </div>
+                </div>
+                <div class="header__hamberger">
+                    <span></span>
+                    <span class="long"></span>
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Брендинг</a></li>
+                        <li><a href="creatsite.html">Создание сайтов</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Контекст</a></li>
+                        <li><a href="#">SMM</a></li>
+                        <li><a href="#">Таргет</a></li>
+                        <li><a href="#">Кураторство</a></li>
+                        <li><a href="#">Кейсы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="creature">
+        <div class="container">
+            <h1>Креативное <br> <span>Создание сайтов</span> </h1>
+            <p>Мы построим полноценный <span>продающий <br> интернет- ресурс</span> для Вашего бизнеса</p>
+            <p class="p2">Станьте лучше своих конкурентов вместе с <span>«Chimeras»</span> </p>
+            <a data-modal href="#" class="btn btn-big">Оформить заказ</a>
+            <div class="creature__bonus">*и получить БЕСПЛАТНЫЙ аудит Вашей компании</div>
+        </div>
+    </section>
+    <section class="stagesofdev">
+        <div class="container">
+            <div class="title-main fz30 tal">Этапы разработки сайта:</div>
+            <div class="stagesofdev__wrapper">
+                <div class="stagesofdev__wrapper-items">
+                    <div class="stagesofdev__wrapper-item">
+                        <span>01</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Оформление заявки (займет не больше 5 минут)
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>02</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Составление ТЗ
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>03</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Анализ конкурентов и аудит маркетинговой ниши Вашего бизнеса
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>04</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Разработка индивидуального креативного дизайна сайта
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>05</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Составление текстов, которые ПРОДАЮТ
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>06</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Адаптивная верстка сайта
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>07</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Подключение начальной SEO оптимизации
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span>08</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Настройка удобной панели администратора
+                        </div>
+                    </div>
+                    <div class="stagesofdev__wrapper-item">
+                        <span class="nlineafter">09</span>
+                        <div class="stagesofdev__wrapper-text">
+                            Тестирование сайта и передача клиенту
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projectslider">
+        <div class="container">
+            <div class="title-main fz30 ">Портфолио</div>
+            <div class="projectslider__slider">
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+                <div class="projectslider__slider-item">
+                    <img src="img/project_slider/slide.png" alt="slide">
+                    <a href="#"><div>houses.com</div></a>
+                </div>
+            </div>
+            <div class="a-btn"><a href="#">Посмотреть все</a></div>
+        </div>
+    </section>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="container">
+                <div class="modal__content fadeInUp wow" data-wow-delay="1s">
+                    <form id="form" action="#">
+                        <div data-close class="modal__close">&times;</div>
+                        <div class="title-main fz30">Оставьте заявку и мы свяжемся с вами, <span> чтобы обсудить ваш проект</span></div>
+                        <div class="modal__wrapper">
+                            <div class="modal__wrapper-input">
+                                <input name="name" placeholder="Имя" type="text" class="modal__input">
+                                <input name="mail" placeholder="ваш e-mail:" type="text" class="modal__input">
+                                <input name="phone" placeholder="номер телефона" type="text" class="modal__input">
+                                <textarea name="company" id="company" placeholder="сайт или иные ознакомительные данные о компании:" class="modal__input mt10" ></textarea>
+                                <input name="wishes" placeholder="ваши пожелания" type="text" class="modal__input">
+                            </div>
+                            <div class="modal__wrapper-checkbox">
+                                <div class="modal__wrapper-title">
+                                    Что Вы хотели бы сделать (доработать) в Вашей компании
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="brand" name="brand">
+                                    <label for="brand">Создание (обновление) бренда</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="style" name="style">
+                                    <label for="style">Фирменный стиль (дизайн Вашей компании)</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="dizain" name="dizain">
+                                    <label for="dizain">Иные услуги дизайна (дизайн приложений, иллюстрации)</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="create" name="create">
+                                    <label for="create">Создание сайта</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="redact" name="redact">
+                                    <label for="redact">Редактирование сайта</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="seo" name="seo">
+                                    <label for="seo">SEO</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="contecst" name="contecst">
+                                    <label for="contecst">Контекстная реклама</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="target" name="target">
+                                    <label for="target">Таргетированная реклама</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="curator" name="curator">
+                                    <label for="curator">Кураторство (ведение маркетинга в Вашей компании)</label>
+                                </div>
+                                <div class="modal__wrapper-box">
+                                    <input type="checkbox" id="blog" name="blog">
+                                    <label for="blog">Блог</label>
+                                </div>
+                                <div class="modal__wrapper-box mdn">
+                                    <input type="checkbox" id="utp" name="utp">
+                                    <label for="utp">Разработка УТП</label>
+                                </div>
+                                <div class="modal__wrapper-box mdn">
+                                    <input type="checkbox" id="video" name="video">
+                                    <label for="video">Видео (корпоративное, рекламное)</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-form">Получить консультацию</button>
+                        <div class="permis">
+                            <input type="checkbox" id="permis" name="permis" required>
+                            <label for="permis">Я даю свое согласие на обработку </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js" ></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script  src="js/script.js" ></script>
 </body>
 </html>

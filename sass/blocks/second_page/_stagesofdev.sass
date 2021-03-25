@@ -1,0 +1,48 @@
+.stagesofdev
+    padding-top: 55px
+    background: url("../img/second/second_bg.png") no-repeat 50%/cover
+    padding: 80px
+    &__wrapper
+        padding-top: 60px
+        &-items
+            display: flex
+            flex-direction: column
+        &-item
+            margin-bottom: 25px
+            align-items: center
+            display: flex
+            span
+                position: relative
+                background-color: $main-color
+                border-radius: 100%
+                color: #000 
+                font-size: 20px
+                font-weight: 500
+                width: 40px
+                height: 40px
+                display: flex
+                justify-content: center
+                align-items: center
+                &::after
+                    content: ""
+                    position: absolute
+                    width: 4px
+                    height: 50px
+                    background-color: $main-color
+                    bottom: -50px
+
+                    
+        &-text
+            color: #fff
+            font-size: 20px
+            font-weight: 500
+            margin-left: 40px
+.tal
+    text-align: left
+.nlineafter
+    &::after
+        content: "" !important
+        position: absolute !important
+        width: 0 !important
+        height: 0 !important
+        

@@ -106,7 +106,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
             closeModal();
         }
     });
-    // menuHamburger    
+    //menuHamburger    
     const hamburger = document.querySelector('.header__hamberger'),
     menu = document.querySelector('.menu'),
     closeElem = document.querySelector('.menu__close');
