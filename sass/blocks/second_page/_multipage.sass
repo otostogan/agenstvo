@@ -1,0 +1,31 @@
+.multipage
+    padding-top: 85px
+    padding-bottom: 40px
+    background: url("../img/second/multipage.png") no-repeat 50%/cover
+    &-title
+        color: $main-color
+        font-size: 30px
+        font-weight: 700
+        position: relative
+        &::after
+            content: ""
+            position: absolute
+            background: url("../icons/angle/angle.png")
+            width: 61px
+            height: 61px
+            top: -30px
+            left: -40px
+    &-wrapper
+        position: relative
+        display: flex
+    &-leftside
+        height: 755px
+        color: $main-color
+        font-weight: 700
+        font-size: 55px
+        position: absolute
+        z-index: 3
+        h4
+            width: 77px
+            display: block
+            transform: rotate(-90deg) translate(-30%,-260%)
