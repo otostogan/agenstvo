@@ -94,65 +94,75 @@
             <div class="title-main fz30 tal">Этапы разработки сайта:</div>
             <div class="stagesofdev__wrapper">
                 <div class="stagesofdev__wrapper-items">
-                    <div class="stagesofdev__wrapper-item">
-                        <span>01</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Оформление заявки (займет не больше 5 минут)
+                    <div class="stagesofdev-slider">
+                        <div class="stagesofdev__wrapper-item">
+                            <span>01</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Оформление заявки (займет не больше 5 минут)
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span>02</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Составление ТЗ
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span>03</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Анализ конкурентов и аудит маркетинговой ниши Вашего бизнеса
+                            </div>
                         </div>
                     </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>02</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Составление ТЗ
+                    <div class="stagesofdev-slider">
+                        <div class="stagesofdev__wrapper-item">
+                            <span>04</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Разработка индивидуального креативного дизайна сайта
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span>05</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Составление текстов, которые ПРОДАЮТ
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span>06</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Адаптивная верстка сайта
+                            </div>
                         </div>
                     </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>03</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Анализ конкурентов и аудит маркетинговой ниши Вашего бизнеса
+                    <div class="stagesofdev-slider">
+                        <div class="stagesofdev__wrapper-item">
+                            <span>07</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Подключение начальной SEO оптимизации
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span>08</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Настройка удобной панели администратора
+                            </div>
+                        </div>
+                        <div class="stagesofdev__wrapper-item">
+                            <span class="nlineafter">09</span>
+                            <div class="stagesofdev__wrapper-text">
+                                Тестирование сайта и передача клиенту
+                            </div>
                         </div>
                     </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>04</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Разработка индивидуального креативного дизайна сайта
-                        </div>
-                    </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>05</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Составление текстов, которые ПРОДАЮТ
-                        </div>
-                    </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>06</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Адаптивная верстка сайта
-                        </div>
-                    </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>07</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Подключение начальной SEO оптимизации
-                        </div>
-                    </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span>08</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Настройка удобной панели администратора
-                        </div>
-                    </div>
-                    <div class="stagesofdev__wrapper-item">
-                        <span class="nlineafter">09</span>
-                        <div class="stagesofdev__wrapper-text">
-                            Тестирование сайта и передача клиенту
-                        </div>
-                    </div>
+                    <div class="stagesofdev-btn">
+                        <a class="stagesofdev-prev" onclick="plusSlides2(-1)">&#10094;</a>
+                        <a class="stagesofdev-next" onclick="plusSlides2(1)">&#10095;</a>
+                   </div>       
                 </div>
             </div>
         </div>
     </section>
-    <section class="projectslider">
+    <section class="projectslider backblack">
         <div class="container">
             <div class="title-main fz30 ">Портфолио</div>
             <div class="projectslider__slider">
@@ -263,6 +273,7 @@
                     <div class="howmatch__item-conditions">
                         <p> Срок создания: <br> до 14 дней</p>
                         <p> Стоимость создания: <br>от 13 000 руб.</p>
+                        <a data-modal href="#" class="btn mA buttoninitem">Оформить заказ</a>
                     </div>
                 </div>
                 <div class="howmatch__item">
@@ -352,6 +363,7 @@
                     <div class="howmatch__item-conditions">
                         <p> Срок создания: <br> до 18 дней</p>
                         <p> Стоимость создания: <br>от 25 000 руб.</p>
+                        <a data-modal href="#" class="btn mA buttoninitem">Оформить заказ</a>
                     </div>
                 </div>
                 <div class="howmatch__item">
@@ -417,15 +429,18 @@
                     <div class="howmatch__item-conditions">
                         <p> Срок создания: <br> до 28 дней</p>
                         <p> Стоимость создания: <br>от 52 000 руб.</p>
+                        <a data-modal href="#" class="btn mA buttoninitem">Оформить заказ</a>
+
                     </div>
                 </div>
             </div>
-            <div class=""><a data-modal href="#" class="btn mA">Оформить заказ</a></div>
+            <div class=""><a data-modal href="#" class="btn mA buttonbottmdn">Оформить заказ</a></div>
         </div>
     </section>
     <section class="multipage">
         <div class="container">
             <div class="multipage-title">Продвинутый многостраничный сайт</div>
+            <div class="mobile-subtitle">Лучшее предложение</div>
             <div class="multipage-wrapper">
                 <div class="multipage-leftside">
                     <h4 class="multipage-text">ЛУЧШЕЕ ПРЕДЛОЖЕНИЕ</h4>
@@ -496,9 +511,10 @@
                     <div class="multipage-condition">
                         Цена: от 79 990 руб.
                     </div>
+                    <a data-modal href="#" class="btn btninlist mA">Оформить заказ</a>
                 </div>
             </div>
-            <a data-modal href="#" class="btn">Оформить заказ</a>
+            <a data-modal href="#" class="btn btnoutlist">Оформить заказ</a>
         </div>
     </section>
     <div class="someinfo">
@@ -536,6 +552,7 @@
     <section class="ouroffer">
         <div class="container">
             <h5 class="ouroffer-title">Этого не предлагают в других агенствах:</h5>
+            <div class="title-main">Этого не предлагают в других агенствах:</div>
             <div class="ouroffer__wrapper">
                 <div class="ouroffer__list">
                     <ul class="ouroffer__wrapper-list">
@@ -868,6 +885,7 @@
     <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js" ></script>
+    <script src="js/stage-slaider.js"></script>
     <script src="js/preloader.js"></script>
     <script src="js/wow.min.js"></script>
     <script  src="js/script.js" ></script>
