@@ -1,0 +1,39 @@
+.ouroffer
+    padding-top: 20px
+    background: url("../img/second/ouroffer.png") no-repeat 50%/cover
+    &-title
+        text-align: center
+        color: #fff 
+        font-size: 30px
+        font-weight: 600
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            width: 120px
+            height: 2px
+            background-color: $main-color
+            bottom: -20px
+        &::after
+            content: ""
+            position: absolute
+            width: 120px
+            height: 2px
+            background-color: $main-color
+            bottom: -20px
+            right: 290px    
+            
+    &__wrapper
+        display: flex
+        margin-top: 60px
+        justify-content: space-between
+        &-list
+            li
+                display: flex
+                margin-bottom: 25px
+                align-items: center
+                p
+                    margin-left: 25px
+                    font-size: 18px
+                    font-weight: 300
+                    color: #fff 

@@ -1,0 +1,35 @@
+.someinfo
+    background-color: #000
+    padding-top: 55px
+    padding-bottom: 85px
+    &__list
+        padding-top: 50px
+        li
+            display: flex
+            align-items: center
+            list-style-type: none
+            font-size: 20px
+            font-weight: 700
+            color: #fff
+            margin-bottom: 40px
+            position: relative
+            &::after
+                content: ""
+                position: absolute
+                width: 8px
+                height: 8px
+                border: 1px solid #fff
+                border-radius: 100%
+                left: 20px
+                top: 65px
+            &:last-child
+                &::after
+                    content: ""
+                    width: 0
+                    height: 0
+                    border: none
+            span
+                color: $main-color
+                
+        &-text
+            margin-left: 20px
