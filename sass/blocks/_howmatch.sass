@@ -2,6 +2,7 @@
     padding-top: 150px
     background: url("../img/howmatch.png") round
     padding-bottom: 75px
+    position: relative
     &__wrapper
         width: 100%
         background-color: #000
@@ -13,6 +14,7 @@
         margin-top: 70px
         margin-bottom: 60px
     &__item
+        width: 33%
         padding-left: 40px
         padding-top: 60px
         padding-right: 30px
@@ -27,6 +29,8 @@
             text-align: center
             padding-bottom: 35px
             // border-bottom: 1px solid #fff
+            span
+                font-size: 13px
         &-conditions
             text-align: center
             padding-top: 50px
@@ -49,10 +53,38 @@
                 height: 15px
                 border-radius: 100%
         &-text
+            width: 80%  
             color: #fff 
             margin-left: 20px
             font-weight: 400
             font-size: 15px
+            span
+                font-size: 13px
+                font-weight: 400
+                border-radius: 0% !important
+                background-color: #000  !important
+            ul
+                list-style-type: disc
+                li
+                    font-size: 11px
+                    margin-bottom: 5px
+                    
 .buttoninitem
     display: none
+.alignstart
+    align-items: start !important
+.yellow
+    color: $main-color
+    font-weight: 400
+    font-size: 15px
+.paddingmore
+    padding-bottom: 60px
+.condpaddingmore
+    padding-top: 98px
+.w400
+    width: 400px  
+.w100
+    width: 100%  
+.nmt
+    margin-top: 0
 
