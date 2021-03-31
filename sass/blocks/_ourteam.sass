@@ -104,8 +104,7 @@
 .prev, .next
     position: relative
     height: 30px
-.prev
-    width: 75px
+
 .prev::after
     content: ""
     position: absolute
@@ -139,4 +138,79 @@
     to 
         opacity: 1
 
-           
+.third_bg
+    background: url("../img/ourteam/third_bg.png") no-repeat 50%/cover
+    .ourteam
+        &__item
+            &-firstname
+                color: $main-color
+                &::after
+                    background-color: $main-color
+            &-lastname
+                color: $main-color
+    .slick-prev
+        position: relative
+        height: 2px
+        top: 60%
+        &::before
+            content: "<"
+            position: absolute
+            bottom: -20px
+            font-size: 29px
+            left: -4px
+        img
+            display: none
+    .slick-next
+        position: relative
+        height: 2px
+        top: 5%
+        &::before
+            content: ">"
+            position: absolute
+            bottom: -20px
+            font-size: 29px
+            right: -3px
+        img
+            display: none
+    .ourteam__descr
+        &::after
+            content: ""
+            background: url("../icons/angle/blackleft.png")
+    .prev::after
+        content: ""
+        position: absolute
+        background-color: $main-color  
+        width: 70px
+        height: 2px
+        top: 14px   
+        left: 3px
+     
+    .next::after
+        content: ""
+        position: absolute
+        background-color: $main-color  
+        width: 70px
+        height: 2px
+        top: 14px   
+        right: 3px
+    .prev, .next 
+        color: $main-color !important
+
+.blackbg
+    background-color: #000
+.yellowbg
+    background-color: $main-color
+.yellowtext 
+    color: $main-color !important
+.blacktext
+    color: #000  !important
+.yellow_bar
+    &::after
+        content: ""
+        position: absolute
+        height: 2px
+        width: 190px
+        top: 20px
+        left: 0
+        top: 50px
+        background-color: $main-color

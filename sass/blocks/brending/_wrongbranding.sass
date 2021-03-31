@@ -1,0 +1,83 @@
+.wrongbranding
+    background-color: #000
+    padding-bottom: 50px
+    padding-top: 100px
+    position: relative
+    &::before
+        content: ""
+        position: absolute
+        background: url("../img/brending/lion.png")
+        width: 543px    
+        height: 345px
+        bottom: -25px
+        left: 50%
+        transform: translateX(-50%)
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &-left
+        width: 650px
+    &-right
+        width: 450px
+        position: relative
+        &::before
+                content: ""
+                position: absolute
+                background: url("../icons/mobilelogo/mobile_angle/yelow_left.png")
+                width: 36px
+                height: 38px
+                left: -25px
+                top: -25px
+    &-righttext
+            color: #fff 
+            font-weight: 200
+            font-size: 22px
+            margin-bottom: 40px
+            position: relative
+            span
+                color: $main-color    
+
+    &-text
+        padding-top: 35px
+        color: #fff 
+        font-size: 22px
+        font-weight: 400
+        p
+            position: relative
+            &:nth-child(2)
+                padding-left: 55px
+            &:nth-child(3)
+                padding-left: 185px
+            &::after
+                content: ""
+                position: absolute
+                width: 300px
+                height: 2px
+                background-color: $main-color
+                left: 0
+                bottom: -5px
+.bonus
+    width: 250px
+    margin: 0 auto
+    color: #fff
+    margin-top: 20px
+.p2
+    &::after
+        content: ""
+        position: absolute
+        width: 300px
+        height: 2px
+        background-color: $main-color
+        left: 55px !important
+        bottom: -5px
+.p3
+    &::after
+        content: ""
+        position: absolute
+        width: 300px
+        height: 2px
+        background-color: $main-color
+        left: 185px !important
+        bottom: -5px
+    
+                
