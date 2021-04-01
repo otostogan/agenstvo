@@ -42,6 +42,15 @@
         padding-top: 50px
         list-style-type: none
         border-top: 1px solid #fff
+        &-wrapper
+            display: flex
+            flex-direction: column
+            width: 95%
+        &-title
+            margin-left: 15px
+            font-size: 18px
+            font-weight: 600
+            color: $main-color
         li
             display: flex
             align-items: start
@@ -89,3 +98,57 @@
 .nmt
     margin-top: 0
 
+.seo
+    .howmatch
+        &__wrappper
+            flex-direction: column
+        &__item
+            &-title
+                font-size: 14px
+            &-wrapper
+                display: flex
+        &__list
+            &-text
+                font-size: 14px
+                margin-bottom: 10px
+            &-title
+                margin-bottom: 10px
+        &__card
+            margin-top: 85px
+            &-top
+                font-size: 22px
+                font-weight: 600
+                color: $main-color
+                margin-bottom: 20px
+            &-bottom
+                font-size: 18px
+                font-weight: 400
+                color: #fff
+            &-title
+                text-align: center
+                font-size: 30px
+                font-weight: 600
+                color: #fff
+            &-wrapper
+                margin-top: 50px
+                column-gap: 40px
+                row-gap: 30px
+                display: grid
+                justify-content: center
+                grid-template-columns: repeat(2, 530px)
+                grid-template-rows: repeat(2, 195px)
+                margin-bottom: 60px
+            &-item
+                border: 1px solid #fff
+                border-radius: 17px
+                padding: 20px 18px
+    .yellow-title
+        font-size: 18px
+        font-weight: 700
+        color: $main-color
+.seo .howmatch__wrapper
+    flex-direction: column
+.buttonincard
+    display: none
+.bottonoutcard
+    display: flex
