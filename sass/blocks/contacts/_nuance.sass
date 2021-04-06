@@ -1,0 +1,57 @@
+.nuance
+    padding-top: 30px
+    padding-bottom: 100px
+    background: url("../img/contacts/contacts_second.png") no-repeat 50%/cover
+    &__contacts
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-phone
+            display: flex
+            align-items: center
+            a
+                margin-left: 20px
+                font-size: 20px
+                color: #fff
+                font-weight: 400
+                &:hover
+                    color: #fff
+                    text-decoration: none
+        &-mail
+            display: flex
+            align-items: center
+            a
+                margin-left: 20px
+                font-size: 20px
+                color: #fff
+                font-weight: 400
+                &:hover
+                    color: #fff
+                    text-decoration: none
+        &-socialmedia
+            display: flex
+            align-items: center
+            justify-content: space-between
+            width: 130px
+    &__items
+        margin-top: 125px
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: 175px 175px 175px
+        row-gap: 15px
+    &__item
+        display: flex
+        flex-direction: column
+        
+        align-items: center
+        &:nth-child(1)
+            justify-self: start
+        &:nth-child(3)
+            justify-self: end
+        span
+            max-width: 700px    
+            text-align: center
+            margin-top: 25px
+            font-size: 20px
+            font-weight: 300
+            color: #fff
