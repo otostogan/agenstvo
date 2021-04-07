@@ -1,0 +1,69 @@
+.cases
+    padding-top: 180px
+    padding-bottom: 70px
+    background: url("../img/cases/first_bg.png") no-repeat 50%/cover
+    h1
+        font-size: 48px
+        font-weight: 500
+        color: $main-color
+        max-width: 700px    
+        text-transform: uppercase
+    &__wrapper
+        margin-top: 70px
+        display: flex
+        justify-content: space-between
+        &-item
+            margin-bottom: 15px
+    &__all
+        max-width: 470px
+
+.exemple
+    padding-top: 50px
+    padding-bottom: 120px
+    background: url("../img/cases/cases_bg.png") no-repeat 50%/cover
+    &__wrapper
+        margin-top: 50px
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: auto auto 
+        row-gap: 25px   
+        column-gap: 20px    
+        &-inner
+            position: relative
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75))
+            transition: 700ms
+            transition-timing-function: ease-in-out
+            -webkit-transition: 700ms
+            -webkit-transition-timing-function: ease-in-out
+
+
+.exemple__wrapper-inner:hover   .exemple__wrapper-img img
+    opacity: .4
+    transition: 200ms
+    transition-timing-function: ease-in-out
+    -webkit-transition: 200ms
+    -webkit-transition-timing-function: ease-in-out
+.exemple__wrapper-inner:hover   .exemple__wrapper-text
+    opacity: 1
+    transition: 200ms
+    transition-timing-function: ease-in-out
+    -webkit-transition: 200ms
+    -webkit-transition-timing-function: ease-in-out
+
+.exemple__wrapper-text
+    width: 100%
+    font-size: 18px
+    color: #fff
+    text-transform: uppercase
+    font-weight: 700
+    text-align: center
+    opacity: 0
+    position: absolute
+    top: 50%
+    left: 0
+    z-index: 2
+    transform: translate3d(0, -50%, 0)
+    transition: 200ms
+    transition-timing-function: ease-in-out
+    -webkit-transition: 200ms
+    -webkit-transition-timing-function: ease-in-out

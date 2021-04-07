@@ -1,0 +1,93 @@
+@media (max-width: 1250px)
+    .exemple
+        &__wrapper
+            width: 750px
+            margin: 0 auto
+            display: block
+            margin-top: 30px
+            &-text
+                display: none
+        button.slick-next
+            background-color: transparent
+            right: -30px
+        button.slick-prev
+            background-color: transparent
+            left: -30px
+        .slick-dots
+            bottom: -45px
+        &-item
+            position: relative
+            
+    .btn-invittoyellow
+        &:hover
+            background-color: transparent
+            color: $main-color
+
+
+
+@media (max-width: 1200px)
+    .cases
+        h1
+            font-size: 40px
+@media (max-width: 992px)
+    .cases
+        padding-left: 20px
+        padding-right: 20px
+        h1
+            font-size: 30px
+        .btn-invittoyellow
+            width: 170px
+            height: 45px
+            font-size: 14px
+            &:hover
+                background-color: transparent
+                color: $main-color
+        &__all
+            max-width: 360px  
+    .exemple
+        padding-bottom: 100px
+        &__wrapper
+            width: 500px
+            .slick-slide
+                img
+                    max-width: 450px
+            .slick-next, .slick-prev
+                top: 100px
+
+@media (max-width: 768px)
+    .cases
+        padding-top: 70px
+        padding-bottom: 70px
+    .exemple
+        padding-bottom: 100px
+        &__wrapper
+            width: 450px
+            .slick-slide
+                img
+                    max-width: 400px
+@media (max-width: 576px)
+    .cases
+        &__wrapper
+            margin-top: 35px
+            flex-direction: column
+            align-items: center
+        h1
+            font-size: 19px
+    .exemple
+        padding-bottom: 100px
+        &__wrapper
+            width: 290px
+            .slick-slide
+                img
+                    max-width: 240px
+            button.slick-next
+                display: none
+                background-color: transparent
+                right: -10px
+            button.slick-prev
+                display: none  !important
+                background-color: transparent
+                left: -10px
+            .slick-next, .slick-prev
+                display: none !important
+                top: 50px
