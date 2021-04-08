@@ -1,0 +1,86 @@
+.description
+    padding-top: 50px
+    padding-bottom: 100px
+    background-color: $main-color
+    &__header
+        padding: 40px 0 40px 35px
+        background-color: rgba(0, 0, 0, 0.85)
+        border-radius: 10px
+        font-size: 30px
+        font-weight: 600
+        color: $main-color
+        margin-bottom: 35px
+    &__field
+        margin-bottom: 65px
+        padding-top: 40px
+        padding-left: 35px
+        background-color: rgba(0, 0, 0, 0.85)
+        border-radius: 10px
+        padding-bottom: 55px
+        &-title
+            position: relative
+            font-size: 30px
+            font-weight: 600
+            color: #fff
+            &::after
+                content: ""
+                position: absolute
+                width: 250px
+                height: 7px
+                background-color: $main-color
+                bottom: -35px
+                left: -35px
+        &-info
+            margin-top: 90px
+        &-item
+            display: flex
+            align-items: center
+        &-number
+            font-size: 80px
+            font-weight: 700
+            color: $main-color
+            opacity: .4
+        &-text
+            font-size: 20px
+            font-weight: 400    
+            color: #fff
+            max-width: 900px    
+            margin-left: 50px
+        &-circle
+            height: 25px
+            width: 25px
+            background-color: $main-color
+            opacity: 0.4
+            border-radius: 100%
+        &-round
+            width: 50px
+            height: 50px
+            background-color: $main-color
+            border-radius: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 30px
+            font-weight: 700
+            opacity: 0.4
+    .list-circle
+        .description
+            &__field
+                &-text
+                    margin-left: 20px
+                &-item
+                    margin-bottom: 20px
+    .list-round
+        .description
+            &__field
+                &-text
+                    max-width: 1030px
+                    margin-left: 35px
+                &-item
+                    margin-bottom: 20px
+
+
+    
+.long
+    &::after
+        width: 550px
