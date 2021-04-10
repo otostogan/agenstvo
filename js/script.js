@@ -11,7 +11,42 @@ window.addEventListener('DOMContentLoaded', ()=> {
     closeElem.addEventListener('click', () => {
         menu.classList.remove('showmenu');
     });
+    //wowjs
     new WOW().init();
+    //validateofForm
+
+    function validate(form){
+        $(form).validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                  },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: "required",
+                permis: "required",
+                permisbottom: "required"
+            },
+            messages: {
+                name: {
+                    required: "Пожалуйста, введите свое имя",
+                    minlength: jQuery.validator.format("Введите  {0} символa")
+                  },
+                phone: "Пожалуйста, введите свой номер телефона",
+                email: {
+                  required: "Пожалуйста, введите свою почту",
+                  email: "Неправельно введен адрес почты"
+                },
+                permis: "(Пожалуйста, дайте согласие на обработку данных!)",
+                permisbottom: "(Пожалуйста, дайте согласие на обработку данных!)"
+              }        
+        });
+    }
+    validate(".feed-form");
+    validate(".feed-onpage");
 });
 
 

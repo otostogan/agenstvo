@@ -171,7 +171,7 @@
             <div class="exemple__wrapper  fadeInUp wow" data-wow-delay="1s" data-wow-duration="1s">
                 <div class="exemple__wrapper-item">
                     <div class="exemple__wrapper-inner">
-                        <a href="">
+                        <a target="_blank" href="sweets.html">
                             <div class="exemple__wrapper-img">
                                 <img src="img/cases/landingPage/sweets.png" alt="landingPage">
                             </div>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="exemple__wrapper-item">
                     <div class="exemple__wrapper-inner">
-                        <a href="#">
+                        <a target="_blank" href="trener.html">
                             <div class="exemple__wrapper-img">
                                 <img src="img/cases/landingPage/mikel.png" alt="landingPage">
                             </div>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="exemple__wrapper-item">
                     <div class="exemple__wrapper-inner">
-                        <a href="#">
+                        <a target="_blank" href="">
                             <div class="exemple__wrapper-img">
                                 <img src="img/cases/landingPage/medicin.png" alt="landingPage">
                             </div>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="exemple__wrapper-item">
                     <div class="exemple__wrapper-inner">
-                        <a href="#">
+                        <a target="_blank" href="webS.html">
                             <div class="exemple__wrapper-img">
                                 <img src="img/cases/landingPage/forbusines.png" alt="landingPage">
                             </div>
@@ -358,12 +358,12 @@
     <section class="formonpage">
         <div class="container">
             <div class="modal__content fadeInLeft wow" data-wow-delay="1s" data-wow-duration="1s">
-                <form id="formm" action="#">
+                <form id="modalform-onpage" action="handler/telegramBottom.php" method="POST" class="feed-onpage">
                     <div class="title-main fz30">Оставьте заявку и мы свяжемся с вами, <span> чтобы обсудить ваш проект</span></div>
                     <div class="modal__wrapper">
                         <div class="modal__wrapper-input">
                             <input name="name" placeholder="Имя" type="text" class="modal__input">
-                            <input name="mail" placeholder="ваш e-mail:" type="text" class="modal__input">
+                            <input name="email" placeholder="ваш e-mail:" type="text" class="modal__input">
                             <input name="phone" placeholder="номер телефона" type="text" class="modal__input">
                             <textarea name="company" id="company" placeholder="сайт или иные ознакомительные данные о компании:" class="modal__input mt10" ></textarea>
                             <input name="wishes" placeholder="ваши пожелания" type="text" class="modal__input">
@@ -493,6 +493,7 @@
     </footer>
     <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/slick.min.js" ></script>
     <script src="js/preloader.js"></script>
     <script src="js/wow.min.js"></script>

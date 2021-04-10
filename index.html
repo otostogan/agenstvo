@@ -615,14 +615,14 @@
         <div class="modal__dialog">
             <div class="container">
                 <div class="modal__content fadeInUp wow" data-wow-delay="1s">
-                    <form id="form" action="#">
+                    <form id="modal-form" action="handler/telegram.php" method="POST" class="feed-form">
                         <div data-close class="modal__close">&times;</div>
                         <div class="title-main fz30">Оставьте заявку и мы свяжемся с вами, <span> чтобы обсудить ваш проект</span></div>
                         <div class="modal__wrapper">
                             <div class="modal__wrapper-input">
-                                <input name="name" placeholder="Имя" type="text" class="modal__input">
-                                <input name="mail" placeholder="ваш e-mail:" type="text" class="modal__input">
-                                <input name="phone" placeholder="номер телефона" type="text" class="modal__input">
+                                <input name="name"  placeholder="Имя" type="text" class="modal__input">
+                                <input name="email"  placeholder="ваш e-mail:" type="email" class="modal__input">
+                                <input name="phone"  placeholder="номер телефона" type="number" class="modal__input">
                                 <textarea name="company" id="company" placeholder="сайт или иные ознакомительные данные о компании:" class="modal__input mt10" ></textarea>
                                 <input name="wishes" placeholder="ваши пожелания" type="text" class="modal__input">
                             </div>
@@ -682,7 +682,7 @@
                         </div>
                         <button class="btn-form">Получить консультацию</button>
                         <div class="permis">
-                            <input type="checkbox" id="permis" name="permis" required>
+                            <input type="checkbox" id="permis" name="permis">
                             <label for="permis">Я даю свое согласие на обработку </label>
                         </div>
                     </form>
@@ -694,6 +694,7 @@
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js" ></script>
     <script src="js/preloader.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/slicks.js" ></script>
     <script src="js/ourteam.js"></script>
