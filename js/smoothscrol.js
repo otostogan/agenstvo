@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
     const buttons = document.querySelectorAll('.btn-invittoyellow'),
         landingPage = document.querySelector('#landingPage'),
         corporateWebsite = document.querySelector('#corporateWebsite'),
-        webshop = document.querySelector('#webshop'),
+        webshop = document.querySelector('#webShop'),
         seocase = document.querySelector('#seocase');
 
     buttons.forEach(btn => {
@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
             if(btn.classList.contains('corporateWebsite')){
                 scrollTo(corporateWebsite);
             }
-            if(btn.classList.contains('webshop')){
+            if(btn.classList.contains('webShop')){
                 scrollTo(webshop);
             }
             if(btn.classList.contains('seocase')){

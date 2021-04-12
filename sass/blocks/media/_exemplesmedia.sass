@@ -29,6 +29,22 @@
             align-items: center
             img
                 margin-bottom: 30px
+    .webshop 
+        padding-left: 20px
+        padding-right: 20px
+        &__wrapper
+            &-item
+                width: auto !important
+                img
+                    width: 100%
+    .tictok
+        padding-left: 20px
+        padding-right: 20px
+    .wrapper__photo-item
+        width: auto
+        img
+            width: 100%
+            
 @media (max-width: 992px)
     .preview
         padding-left: 20px
@@ -60,6 +76,11 @@
         padding-right: 20px
         img
             width: 100%
+    .webshop
+        &__wrapper
+            &-title
+                font-size: 20px !important
+                margin-bottom: 25px !important
 
 @media (max-width: 768px)
     .preview
@@ -165,17 +186,16 @@
             &-photo
                 span
                     font-size: 18px
-    .color
-        flex-direction: column
-        align-items: center
-        justify-content: center
-        .description
-            &__field
-                &-item
-                    margin-left: 0
-                    &:nth-child(2)
-                        margin-left: 0px
-                    &:nth-child(3)
-                        margin-left: 0px
     .font
         font-size: 11px
+    .color
+        grid-template-columns: 100px
+        grid-auto-flow: row
+        justify-content:  center
+    .mt90px
+        margin-top: 20px !important
+    .webshop
+        padding-top: 70px !important
+        &__wrapper
+            &-title
+                font-size: 10px !important

@@ -106,15 +106,25 @@
     font-family: 'PF BeauSans Pro XThin'
 .caslon
      font-family: 'Uk_Caslon'
+.open-Sans
+    font-weight: 700
+    span
+        font-weight: 400
 
 .SeoulHangang
     font-family: "SeoulHangang"
 .roboto
     font-family: 'Roboto', sans-serif
+    .fwr
+        font-weight: 400
+    .fwb
+        font-weight: 700
 .color
-    display: flex
-    max-width: 530px    
-    justify-content: space-between
+    display: grid 
+    grid-template-columns: 100px 100px 100px 100px
+    grid-auto-flow: column
+    column-gap: 50px 
+    grid-template-rows: auto
     .description
         &__field
             &-item
@@ -150,7 +160,13 @@
     background-color: #1BE0AB !important
 .с4F7069
     background-color: #4F7069 !important
-    
+.c011638
+    background-color: #011638 !important
+    border: 1px solid #fff
+.c719A77
+    background-color: #719A77 !important
+.FFE603
+    background-color: $main-color !important
 .long
     &::after
         width: 550px
