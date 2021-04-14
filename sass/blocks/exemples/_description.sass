@@ -35,6 +35,9 @@
         &-item
             display: flex
             align-items: center
+            &:nth-child(1)
+                .description__field-text
+                    margin-left: 65px
         &-number
             font-size: 80px
             font-weight: 700
@@ -46,6 +49,7 @@
             color: #fff
             max-width: 900px    
             margin-left: 50px
+            
         &-circle
             height: 25px
             width: 25px
@@ -102,6 +106,12 @@
     font-weight: 700
     span
         font-weight: 500
+    .fwr
+        font-weight: 400
+    .fwb
+        font-weight: 700
+    .fwl
+        font-weight: 300
 .beauSans
     font-family: 'PF BeauSans Pro XThin'
 .caslon
@@ -110,6 +120,12 @@
     font-weight: 700
     span
         font-weight: 400
+    .fwr
+        font-weight: 400
+    .fwb
+        font-weight: 700
+    .fwl
+        font-weight: 300
 
 .SeoulHangang
     font-family: "SeoulHangang"
@@ -121,7 +137,7 @@
         font-weight: 700
 .color
     display: grid 
-    grid-template-columns: 100px 100px 100px 100px
+    grid-template-columns: 100px 100px 100px 100px 100px
     grid-auto-flow: column
     column-gap: 50px 
     grid-template-rows: auto
@@ -141,13 +157,21 @@
                 margin-left: 0px    !important
                 margin-top: 10px
 
+.FF8500
+    background-color: #FED739 !important
 .FFF
     background-color: #fff !important
 .black
     background-color: #000 !important
+.black-wb
+    background-color: #000 !important
+    border: 1px solid #fff
 .A49
     background-color: #A49D00 !important
-                     
+.EEAC7C
+    background-color: #EEAC7C !important
+.F3C3A1
+    background-color: #F3C3A1 !important   
 .EEF3FF 
     background-color: #EEF3FF !important
 .FF0606
@@ -167,6 +191,26 @@
     background-color: #719A77 !important
 .FFE603
     background-color: $main-color !important
+.EDD97F
+    background-color: #EDD97F !important
+.FE164A
+    background-color: #FE164A !important
+.c77C1E5
+    background-color: #77C1E5 !important
+.CD7E80
+    background-color: #CD7E80 !important
+.c8C0004
+    background-color: #8C0004 !important
+.FFD357
+    background-color: #FFD357 !important
+.c1E3D59
+    background-color: #1E3D59 !important
+.DBB761
+    background-color: #DBB761 !important
 .long
     &::after
         width: 550px
+.blackangle
+    width: 100%
+    position: absolute
+    top: 0px
